@@ -1,0 +1,62 @@
+@keyframes animate{
+    from { background-color: white;display: block; }
+    to { background-color: yellow;display: none; }
+}
+
+.transition-bloc{
+    width: 100%;
+    height: 50vh;
+    background-color: yellow;
+    /*transition: background-color 2.5s ease-in-out ;*/
+    animation-name: animate;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    
+}
+
+.transition-bloc:hover{
+    background-color: blue;
+    transform: translateY(20px);
+}
+
+
+@keyframes animateTitle{
+    from { opacity: 0;transform: translateX(-100%); }
+    to { opacity: 1; transform: translateX(100%); }
+}
+
+.title{
+    animation-name: animateTitle;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+   
+}
+
+
+
+
+/*.transition-bloc:active{
+    background-color: blue;
+
+}*/
+
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    background-color: #2196F3;
+    padding: 15px;
+    transition: background-color,color 0.9s ease-in;
+}
+
+.translated{
+    transform: translateY(20px);
+}
+
+
+nav > a:hover{
+    background-color: white;
+    color: #2196F3;
+    
+}

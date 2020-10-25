@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+.bg-r{
+    background-color: red;
+}
+
+.bg-b{
+    background-color: blue;
+}
+
+.col-6{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.col-4{
+    width: 33.3333%;
+    display: inline-block;
+    float: left; 
+}
+
+.col-3{
+    width: 25%;
+    display: inline-block;
+    float: left; 
+}
+
+.col{
+
+}
+
+@media screen and (max-width:350px){
+    .col{
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width:350px) and (max-width:750px){
+    .col{
+        width: 50%;
+    }
+}

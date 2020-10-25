@@ -1,0 +1,133 @@
+.custom-h1{
+    color: brown;
+}
+
+#firsttitle{
+    color: blue;
+}
+
+.bloc-h1  > h1  {
+    color: blue !important;
+}
+
+.menu-bloc > a{
+    color: rgb(0, 174, 255);
+    text-decoration: none;
+}
+
+div > p > a {
+    color: red;
+}
+
+input[type="text"]{
+    color: red;
+}
+
+input[type="email"]{
+    color: blue;
+}
+
+div[super="test"] > a{
+    color: red;
+}
+
+a:visited{
+    color: rgb(0, 174, 255);
+}
+
+a:first{
+    color:orange;
+}
+
+.t1 , .t2 {
+    color: orange;
+}
+
+
+.custom-div{
+    margin: 112px 85px 114px 71px;
+    padding: 10px 5px 10px 5px;
+    border: 5px solid red;
+    background-image: url(https://media.ed.edmunds-media.com/lamborghini/huracan/2020/oem/2020_lamborghini_huracan_coupe_evo_fq_oem_7_1600.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat-y: no-repeat;
+
+}
+
+
+@media screen and ( max-width: 768px){
+    .custom-div{
+        background-size: auto 100%;
+    
+    }
+    
+}
+
+
+
+
+.custom-div:after{
+    content: "";
+}
+
+ul{
+    padding: 0;
+    list-style: none;
+}
+
+ul > li {
+    margin-top: 15px;
+}
+
+
+table{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+table > tbody > tr > td{
+    /*border: 1px solid gray;*/
+    text-align: center;
+}
+
+table > tbody > tr {
+    border-bottom: 1px solid gray;
+
+}
+
+table > tbody >tr:nth-child(even){
+    background-color: #e2e2e2;
+}
+
+table > thead > tr > th {
+color: white;
+background-color: rgb(106, 106, 255);
+}
+
+
+/*.content{
+    height: 250px;
+}
+
+body{
+    background-image: url(https://media.ed.edmunds-media.com/lamborghini/huracan/2020/oem/2020_lamborghini_huracan_coupe_evo_fq_oem_7_1600.jpg);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat-y: no-repeat;
+}*/
+
+
+.parent{
+    margin-top: 80px;
+    width: 100%;
+    height: 250px;
+    background-color: cyan;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}
+
