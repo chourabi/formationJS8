@@ -1,0 +1,174 @@
+.alert{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.alert-success{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-success{
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+
+/************************** badge ***************************/
+
+.badge{
+    border-radius: 50%;
+    font-size: 18px;
+    padding: 7px;
+}
+
+.danger{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.breadcrumb{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: #f2f2f2;
+}
+
+.breadcrumb > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.breadcrumb > ul > li {
+    display: inline-block;
+    position: relative;
+    padding-left: 15px;
+}
+
+.breadcrumb > ul > li:before {
+    display: block;
+    content: "/";
+    position: absolute;
+    left: 9px;
+    top: 2px;
+}
+
+.breadcrumb > ul > li > .active{
+    font-weight: bold;
+    color: red;
+}
+
+
+/***************************buttons*************************/
+
+.btn{
+    border: 0;
+    padding: 10px 15px;
+    /*border-radius: 3px;*/
+    border-radius: 0;
+    outline: none;
+    cursor: pointer;
+    /*box-shadow: 0px 11px 23px -1px red;*/
+    margin: 0;
+    margin-left: -5px;
+    transition: box-shadow 0.8s ease-in-out;
+}
+
+.btn:active{
+    /*box-shadow: 0px 11px 10px -1px red;*/
+}
+
+.round{
+    border-radius: 50%;
+}
+
+.btn-group > :first-child{
+    border-radius: 10px 0px 0px 10px;
+}
+
+.btn-group > :last-child{
+    border-radius: 0px 10px 10px 0px;
+}
+
+
+/*************************Card*****************************/
+
+.card{
+    width: 250px;
+    /*border: 1px solid #d7d7d7;*/
+    border-radius: 7px;
+    box-shadow: 0px 20px 20px 1px #eb5c24;
+}
+
+.card > img {
+    width: 100%;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.card > .card-content{
+    padding: 15px;
+}
+
+
+.drowpdown:hover > .dropdown-content {
+    display: block;
+}
+
+.drowpdown > .dropdown-content{
+    display: none;
+}
+
+.form-group {
+    margin-top: 20px;
+
+}
+
+.form-group > label{
+    font-weight: bold;
+
+}
+.form-group > p{
+    margin: 0;
+
+}
+
+.form-input{
+    width: 100%;
+    border-radius: 7px;
+    padding: 8px 15px 8px 10px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+    color: #5e5e5e;
+}
+.form-input:focus{
+    border: 2px solid blue;
+}
+
+
+.side{
+    position: absolute;
+    width: fit-content;
+    background-color: black;
+    color: white;
+    height: (100% - calc( ( 33.2px / 2 ) / 2 ) );
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: calc( ( 33.2px / 2 ) / 2 );
+    height: fit-content;
+    padding-bottom: calc( ( 33.2px / 2 ) / 2 );
+}
