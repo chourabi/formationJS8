@@ -7,30 +7,44 @@ document.getElementsByClassName("mypara")
 
 var arr = [
     {
-        date: new Date()
+        produit:"samsung a30",
+        date: new Date("2020-11-1"),
+        amount:50
+        
     },
     {
-        date: new Date()
+        produit:"samsung a30",
+        date: new Date("2020-11-5"),
+        amount:4
+        
     },
     {
-        date: new Date()
+        produit:"samsung a30",
+        date: new Date("2020-11-4"),
+        amount:18
+        
     },
     {
-        date: new Date()
+        produit:"samsung a30",
+        date: new Date("2020-11-3"),
+        amount:1
+        
     },
     {
-        date: new Date()
+        produit:"samsung a30",
+        date: new Date("2020-11-2"),
+        amount:55
+        
     },
-    {
-        date: new Date()
-    },
+    
     
 ];
 
-arr.sort();
+arr.sort( (a , b) => a.amount- b.amount  );
 
 
 console.log(arr);
+console.log(x);
 
 
 
